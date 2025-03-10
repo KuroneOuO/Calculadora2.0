@@ -25,6 +25,7 @@ const App = () => {
         <input type="text" value={input} readOnly style={styles.input} />
       </div>
       <div style={styles.buttons}>
+        <p>Hola</p>
         <button onClick={() => handleClick("7")} style={styles.button}>
           7
         </button>
