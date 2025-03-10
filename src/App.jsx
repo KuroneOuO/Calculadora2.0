@@ -25,7 +25,10 @@ const App = () => {
         <input type="text" value={input} readOnly style={styles.input} />
       </div>
       <div style={styles.buttons}>
-        <p>Hola</p>
+        <p>
+          La mano arriba, cintura sola Da media vuelta, danza kuduro No te canse
+          ahora, que esto solo empieza Mueve la cabeza, danza kuduro
+        </p>
         <button onClick={() => handleClick("7")} style={styles.button}>
           7
         </button>
